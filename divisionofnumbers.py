@@ -21,5 +21,5 @@ def main():
   
   st.success('The output is {}'.format(result))
   
-if _name=='main_':
-  main()
+if st.button("Calculate result"):
+    main()
