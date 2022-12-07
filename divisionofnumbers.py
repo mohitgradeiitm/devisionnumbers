@@ -10,7 +10,7 @@ def main():
   <h2 style="color:white;text-align:center;">Division of 2 Numbers</h2>
   </div>
   """
-  st.markdown(html_temp,unsafe_allow_html=True)
+ #st.markdown(html_temp,unsafe_allow_html=True)
   num1 = st.number_input("Number 1")
   num2 = st.number_input("Number 2")
   
@@ -23,3 +23,5 @@ def main():
   
 if st.button("Calculate result"):
     main()
+    
+    
